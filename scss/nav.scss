@@ -1,0 +1,87 @@
+@use "variables" as v;
+body.about nav {
+    .logo-name {
+        border: 2px solid black;
+        color: black;
+    }
+    border-bottom: solid 2px black;
+    color: black;
+    a{
+        color: black;
+    }
+}
+nav {
+    // background-color: red;
+    height:  80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 980px;
+    max-width: v.$site-width;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    border-bottom: solid 2px white;
+    top: 0;
+    // background-color: red;
+    .logo {
+        width: 101px;
+        height: 50px;
+        // background-color: blue;
+        margin-left: 2px;
+        .logo-name {
+            border: 2px solid white;
+            width: 100%;
+            height: 43px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            font-family: "Gill Sans Nova", sans-serif;
+            word-spacing: 4px;
+            font-weight: 400;
+            letter-spacing: 0.13rem;
+            padding-top: 25px;
+        }
+    }
+
+    .links {
+        // background-color: aquamarine;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .lastnav{
+            
+        // background-color: red;
+            width: 81.5px;
+        }
+        color: v.$color-blue;
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: "Gill Sans Nova", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: 0.13rem;
+            padding: 0 20px;
+            // border-right: solid 1px v.$color-blue;
+            // height: 21px;
+        
+        }
+    }
+}
+@media screen and (max-width: 980px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+}
+@media screen and (max-width: 625px)
+{
+ .links{
+    flex-direction: column;
+ }
+}

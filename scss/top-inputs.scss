@@ -1,0 +1,40 @@
+@use "variables" as v;
+
+.top-inputs {
+  // background-color: blue;
+  display: grid;
+  grid-template-columns: 0.42fr 0.58fr;
+  gap: 20px;
+  width: 100%;
+
+  input {
+    border: solid 1px v.$color-blue;
+    height: 58px;
+    width: 100%;
+  }
+
+  input::placeholder {
+    color: black;
+    font-size: 18px;
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 300;
+    padding-left: 20px;
+    letter-spacing: 2px;
+  }
+
+  .small {
+    display: flex;
+    grid-column: 1;
+  }
+
+  .big {
+    display: flex;
+    grid-column: 2;
+  }
+}
+@media screen and (max-width: 625px) {
+  .top-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+}

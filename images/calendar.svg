@@ -1,0 +1,14 @@
+<svg id="calendar" xmlns="http://www.w3.org/2000/svg" width="18.99" height="18.99" viewBox="0 0 18.99 18.99">
+  <g id="calendar_1_">
+    <path id="Path_6" d="M17.408,1.78H14.836V.593a.593.593,0,0,0-1.187,0V1.78H10.089V.593A.593.593,0,0,0,8.9.593V1.78H5.341V.593a.593.593,0,0,0-1.187,0V1.78H1.583A1.582,1.582,0,0,0,0,3.362V17.408A1.583,1.583,0,0,0,1.583,18.99H17.408a1.582,1.582,0,0,0,1.582-1.583V3.362A1.582,1.582,0,0,0,17.408,1.78Zm.4,15.627a.4.4,0,0,1-.4.4H1.583a.4.4,0,0,1-.4-.4V3.362a.4.4,0,0,1,.4-.4H4.154V4.154a.593.593,0,0,0,1.187,0V2.967H8.9V4.154a.593.593,0,0,0,1.187,0V2.967h3.561V4.154a.593.593,0,0,0,1.187,0V2.967h2.572a.4.4,0,0,1,.4.4Z"/>
+    <rect width="2.374" height="1.78" transform="translate(4.154 7.121)"/>
+    <rect width="2.374" height="1.78" transform="translate(4.154 10.089)"/>
+    <rect width="2.374" height="1.78" transform="translate(4.154 13.056)"/>
+    <rect width="2.374" height="1.78" transform="translate(8.308 13.056)"/>
+    <rect width="2.374" height="1.78" transform="translate(8.308 10.089)"/>
+    <rect width="2.374" height="1.78" transform="translate(8.308 7.121)"/>
+    <rect width="2.374" height="1.78" transform="translate(12.462 13.056)"/>
+    <rect width="2.374" height="1.78" transform="translate(12.462 10.089)"/>
+    <rect width="2.374" height="1.78" transform="translate(12.462 7.121)"/>
+  </g>
+</svg>

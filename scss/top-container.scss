@@ -1,0 +1,31 @@
+@use "variables" as v;
+.top-container {
+    margin-top: 193px;
+  .title-about {
+    border-bottom: 3px solid black;
+    width: 171px;
+    p {
+      font-size: 60px;
+      letter-spacing: 6px;
+
+      font-family: "proxima-nova-extra-condensed", sans-serif;
+      font-weight: 400;
+      margin-bottom: -15px;
+      text-transform: uppercase;
+    }
+  }
+  .paragraph-about {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    // background-color: red;
+    margin-bottom: 101px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .top-container {
+    margin-top: 250px;
+  }
+}
