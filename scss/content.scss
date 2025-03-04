@@ -1,6 +1,6 @@
+@use "variables" as v;
 .content{
-    max-width: 980px;
+    // background-color: lightpink;
+    max-width: v.$site-content-width;
     margin: 0 auto;
-    
-    // background-color: yellow;
 }

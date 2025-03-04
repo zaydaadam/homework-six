@@ -1,0 +1,60 @@
+@use "variables" as v;
+
+.customers {
+  // background-color: orange;
+
+  .customers-room {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+    .customers-line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // background-color: greenyellow;
+      width: 210px;
+      p {
+        font-family: "gill-sans-nova", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        // background-color: yellow;
+        text-align: left;
+      }
+
+      .customer-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 58px;
+
+        input {
+          width: 100%;
+          max-width: 103px;
+          height: 58px;
+          padding-left: 15px;
+          padding-right: 35px;
+          border: 1px solid v.$color-blue;
+          font-size: 16px;
+        }
+
+        input::placeholder {
+          font-family: "gill-sans-nova", sans-serif;
+          font-weight: 300;
+          font-size: 16px;
+        }
+
+        .drop-icon {
+          margin-left: -40px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+ .customers-line{
+  row-gap: 20;
+ }
+}

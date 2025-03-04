@@ -1,17 +1,29 @@
+//general
 @use "variables";
 @use "structure";
-@use "nav";
+@use "content";
+//nav
+@use "nav.scss";
+//footer
+@use "footer";
+//home
 @use "photo-container";
 @use "three-images";
 @use "customer-button";
-@use "customers-room";
-@use "text-entry";
+
 @use "form-all";
-@use "form";
-@use "check-date";
 @use "top-inputs";
+@use "check-date";
+@use "customers";
+@use "text-entry";
+//about
 @use "top-container";
 @use "bottom-container";
-@use "content";
-@use "app";
-@use "footer";
+//tours
+@use "tours-container";
+@use "tours-hero";
+//special offers
+
+//blog
+
+//contact
